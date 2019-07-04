@@ -23,7 +23,8 @@ ng add @ng-toolkit/universal
 
 ```
 
-when we execute the command ng add @ng-toolkit/universal, in package.json check the new dependency of @ng-toolkit/universal, If it is of lower version like 1.1.2 version (at least for me). Then search in official page of ng-toolkit-universal and have to update with the latest version (when cfreating this document, the latest version is 7.1.2). So I deleted the node_modules folder, then I've changed the version in package.json to 7.1.2, I executed the command npm install, then ### ng add @ng-toolkit/universal@7.1.2
+when we execute the command ng add @ng-toolkit/universal, in package.json check the new dependency of @ng-toolkit/universal, If it is of lower version like 1.1.2 version (at least for me). Then search in official page of ng-toolkit-universal and have to update with the latest version (when cfreating this document, the latest version is 7.1.2). So I deleted the node_modules folder, then I've changed the version in package.json to 7.1.2, I executed the command npm install, then 
+### ng add @ng-toolkit/universal@7.1.2
 
 ```
 "@ng-toolkit/universal": "~7.1.2",
@@ -32,7 +33,7 @@ when we execute the command ng add @ng-toolkit/universal, in package.json check 
 ## Add aws severless module
 ```
 
-ng add @ng-toolkit/serverless - - provider aws
+ng add @ng-toolkit/serverless -- provider aws
 
 ```
 
