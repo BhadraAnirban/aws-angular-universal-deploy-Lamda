@@ -1,6 +1,7 @@
 # Pmkj2
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.6.
+### In this artical you will find how a Angular universal project can be created and deployed in AWS lambda.
 
 ## One time Setup of AWS accout
 
