@@ -103,7 +103,7 @@
           "S3Bucket": {
             "Ref": "ServerlessDeploymentBucket"
           },
-          "S3Key": "serverless/pmkj2/production/1562066984453-2019-07-02T11:29:44.453Z/pmkj2.zip"
+          "S3Key": "serverless/pmkj2/production/1562236499826-2019-07-04T10:34:59.826Z/pmkj2.zip"
         },
         "FunctionName": "pmkj2-production-api",
         "Handler": "lambda.universal",
@@ -122,14 +122,14 @@
         "IamRoleLambdaExecution"
       ]
     },
-    "ApiLambdaVersionjKfQmtuhcUYWBvp6bWRhNkhIIAZ63UlJfRLGI4QQ8M": {
+    "ApiLambdaVersionxEinWC6RcoTweVHEZSGmtYEQ5CKgqTKaj7obb0hzE": {
       "Type": "AWS::Lambda::Version",
       "DeletionPolicy": "Retain",
       "Properties": {
         "FunctionName": {
           "Ref": "ApiLambdaFunction"
         },
-        "CodeSha256": "H+El2mmXH/BqbsOE7h/EEeuku23J1l4wjbKGgy8PuVE="
+        "CodeSha256": "fN87fklNJDR2pvWph37RkY1jdwfUFYFjSCTfdFQfrxg="
       }
     },
     "ApiGatewayRestApi": {
@@ -247,7 +247,7 @@
         "MethodResponses": []
       }
     },
-    "ApiGatewayDeployment1562066901228": {
+    "ApiGatewayDeployment1562236388540": {
       "Type": "AWS::ApiGateway::Deployment",
       "Properties": {
         "RestApiId": {
@@ -317,7 +317,7 @@
     "ApiLambdaFunctionQualifiedArn": {
       "Description": "Current Lambda function version",
       "Value": {
-        "Ref": "ApiLambdaVersionjKfQmtuhcUYWBvp6bWRhNkhIIAZ63UlJfRLGI4QQ8M"
+        "Ref": "ApiLambdaVersionxEinWC6RcoTweVHEZSGmtYEQ5CKgqTKaj7obb0hzE"
       }
     },
     "ServiceEndpoint": {
