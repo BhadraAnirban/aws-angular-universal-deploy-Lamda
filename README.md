@@ -36,7 +36,8 @@ when we execute the command ng add @ng-toolkit/universal, in package.json check 
 ng add @ng-toolkit/serverless -- provider aws
 
 ```
-
+### If you face any webpack-cli issue, update webpack-cli to 3.1.1
+### npm install --save-dev webpack-cli@3.1.1
 
 ### go to serverless.yml and check if the node version is greater than 8. If not then make it – runtime:nodejs8.10
 
