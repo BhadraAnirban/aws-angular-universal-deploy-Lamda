@@ -41,6 +41,8 @@ ng add @ng-toolkit/serverless -- provider aws
 
 ### go to serverless.yml and check if the node version is greater than 8. If not then make it – runtime:nodejs8.10
 
+### Go to serverless.yml and make sure the region is nort verginia - region: us-east-1
+
 Finally deploy the application
 ```
 npm run build:serverless:deploy
