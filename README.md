@@ -20,6 +20,7 @@ npm install @angular/cli
 ng new myApp
 cd myApp
 ng add @ng-toolkit/universal
+(Do not install angular's own universal package)
 
 ```
 
